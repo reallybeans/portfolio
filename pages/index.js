@@ -11,19 +11,18 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
+import {
+  IoLogoFacebook,
+  IoLogoGithub,
+  IoLogoGitlab,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+} from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
-import AvatarI from '../public/images/bean.png'
 import Layout from '../components/layout/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-import {
-  IoLogoInstagram,
-  IoLogoTwitter,
-  IoLogoGithub,
-  IoLogoFacebook,
-  IoLogoGitlab,
-  IoLogoLinkedin,
-} from 'react-icons/io5'
+import AvatarI from '../public/images/bean.png'
 const Page = () => {
   return (
     <Layout>
