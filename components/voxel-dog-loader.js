@@ -11,7 +11,7 @@ export const DogSpinner = () => (
     mt="calc(0px - var(--spinner-size))"
   />
 )
-
+// eslint-disable-next-line react/display-name
 export const DogContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
