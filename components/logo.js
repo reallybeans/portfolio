@@ -12,11 +12,11 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
   img {
-    transition: 200ms esae;
+    transition: 300ms ease;
     filter: ${props => (props.invert ? 'invert(1)' : 'none')};
   }
   &:hover img {
-    transform: rotate(20deg);
+    transform: rotate(50deg);
   }
 `
 const Logo = () => {
