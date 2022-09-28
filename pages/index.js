@@ -68,7 +68,7 @@ const Page = () => {
             About
           </Heading>
           <Paragraph>
-            I'm a Software Engineer who is passionate about design, coding and
+            I&apos;m a Software Engineer who is passionate about design, coding and
             learning new technologies and best practices to become a better
             engineer.
           </Paragraph>
