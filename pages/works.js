@@ -7,18 +7,20 @@ const Works = () => {
   return (
     <Layout>
       <Container>
-        <Heading as="h3" fontSize={16} mb={4}>
-          Works
-        </Heading>
+        <Section delay={0.3}>
+          <Heading as="h3" fontSize={16} mb={4}>
+            Works
+          </Heading>
+        </Section>
         <SimpleGrid column={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
             <WorkGridItem
-              link="https://apps.maychuviet.com/"
+              link="https://itnow.vn/"
               title="Tickets management system"
               thumnail={ItnowThumb.src}
             >
               The system helps customers have a better experience when using the
-              service and helps reduce manual management by up to 70%
+              service and helps reduce manual management by up to 60%
             </WorkGridItem>
           </Section>
         </SimpleGrid>

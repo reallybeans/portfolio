@@ -27,60 +27,65 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Box
-          borderRadius="lg"
-          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-          p={3}
-          mb={6}
-          align="center"
-        >
-          Hello, I&apos;m a full-stack developer based in Viet Nam!
-        </Box>
-        <Box display={{ md: 'flex' }}>
-          <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title">
-              Le Nhut Anh
-            </Heading>
-            <p>Developer / UX-UI Designer</p>
-          </Box>
+        <Section delay={0.5}>
           <Box
-            flexShrink={1}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
+            borderRadius="lg"
+            bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+            p={3}
+            mb={6}
             align="center"
           >
-            <Image
-              borderColor="WhiteAlpha.700"
-              borderWidth={4}
-              borderStyle="solid"
-              maxWidth="100px"
-              display="inline-block"
-              borderRadius="full"
-              src={AvatarI.src}
-              alt="Profile Image"
-            />
+            Hello, I&apos;m a full-stack developer based in Viet Nam!
           </Box>
-        </Box>
-        <Section delay={0.1}>
+          <Box display={{ md: 'flex' }}>
+            <Box flexGrow={1}>
+              <Heading as="h2" variant="page-title">
+                Le Nhut Anh
+              </Heading>
+              <p>Developer</p>
+            </Box>
+            <Box
+              flexShrink={1}
+              mt={{ base: 4, md: 0 }}
+              ml={{ md: 6 }}
+              align="center"
+            >
+              <Image
+                borderColor="WhiteAlpha.700"
+                borderWidth={4}
+                borderStyle="solid"
+                maxWidth="100px"
+                display="inline-block"
+                borderRadius="full"
+                src={AvatarI.src}
+                alt="Profile Image"
+              />
+            </Box>
+          </Box>
+        </Section>
+        <Section delay={0.5}>
           <Heading as="h3" variant={'section-title'}>
-            Work
+            About
           </Heading>
           <Paragraph>
-            Nhut Anh (Bean) is a freelance and a full-stack developer based in
-            Ho Chi Minh City with passionate coding and design.
+            I'm a Software Engineer who is passionate about design, coding and
+            learning new technologies and best practices to become a better
+            engineer.
           </Paragraph>
         </Section>
-        <Box align="center">
-          <NextLink href="/works">
-            <Button
-              rightIcon={<ChevronRightIcon />}
-              bg={useColorModeValue('orange.200', 'orange.600')}
-            >
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
-        <Section delay={0.2}>
+        <Section delay={0.5}>
+          <Box align="center">
+            <NextLink href="/works">
+              <Button
+                rightIcon={<ChevronRightIcon />}
+                bg={useColorModeValue('orange.200', 'orange.600')}
+              >
+                My portfolio
+              </Button>
+            </NextLink>
+          </Box>
+        </Section>
+        <Section delay={0.5}>
           <Heading as="h3" variant={'section-title'}>
             Bio
           </Heading>
@@ -100,7 +105,7 @@ const Page = () => {
             Software Engineering Intern at FPT Software Ho Chi Minh, Viet Nam
           </BioSection>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
@@ -108,7 +113,7 @@ const Page = () => {
             Art, Music, Playing Guitar, Photography, Travel, Machine Learning
           </Paragraph>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             On the web
           </Heading>
